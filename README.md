@@ -30,4 +30,10 @@ sudo apt update
 > [!NOTE]
 > To verify that GNOME Tweak Tool has been completely uninstalled from your Ubuntu system, you can perform the following checks
 > Check if the Application is Still Accessible
-Try to run the application
+```
+gnome-tweaks
+```
+> Check the path of the executable
+```
+which gnome-tweakss
+```
